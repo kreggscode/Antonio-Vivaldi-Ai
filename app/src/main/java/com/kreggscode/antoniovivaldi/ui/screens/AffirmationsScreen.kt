@@ -95,7 +95,7 @@ fun AffirmationsScreen(
         isLoading = false
     }
     
-    val categories = listOf("All", "Ren & Benevolence", "Li & Ritual Propriety", "Xiao & Family", "Junzi & Character", "Yi & Righteousness", "Zhi & Learning", "Xin & Trust", "Self-Cultivation", "Social Harmony", "Governance & Order")
+    val categories = listOf("All", "Music Philosophy", "Violin", "Nature", "Artistry", "Composition", "Inspiration", "Emotion", "Purpose", "Venice", "Beauty", "Craft", "Baroque", "Listening", "Performance", "Theory", "Seasons", "Humility", "Silence", "Structure", "Orchestration", "Audience", "Form", "Universal", "Expression", "Balance", "Teaching", "Spirituality", "Metaphor", "Innovation", "Ensemble", "Melody", "Instruments", "Technique", "Program Music", "Style", "Harmony", "Voice", "Rhythm", "Dynamics", "Ornamentation", "Sacred and Secular", "Elements", "Forms", "Thematic Development", "Counterpoint", "Tonality", "Wisdom", "Learning", "Practicality", "Conclusion")
     
     val filteredAffirmations = remember(selectedCategory, selectedTab, favoriteAffirmations) {
         val baseList = if (selectedTab == 1) {
@@ -693,32 +693,112 @@ fun AffirmationCard(
 
 fun getCategoryIcon(category: String): String {
     return when (category) {
-        "Ren & Benevolence" -> "❤️"
-        "Li & Ritual Propriety" -> "🎭"
-        "Xiao & Family" -> "👨‍👩‍👧‍👦"
-        "Junzi & Character" -> "🌟"
-        "Yi & Righteousness" -> "⚖️"
-        "Zhi & Learning" -> "📚"
-        "Xin & Trust" -> "🤝"
-        "Self-Cultivation" -> "🌱"
-        "Social Harmony" -> "☯️"
-        "Governance & Order" -> "👑"
+        "Music Philosophy" -> "🎼"
+        "Violin" -> "🎻"
+        "Nature" -> "🌿"
+        "Artistry" -> "🎨"
+        "Composition" -> "✍️"
+        "Inspiration" -> "💡"
+        "Emotion" -> "❤️"
+        "Purpose" -> "🎯"
+        "Venice" -> "🏛️"
+        "Beauty" -> "✨"
+        "Craft" -> "🔨"
+        "Baroque" -> "🎭"
+        "Listening" -> "👂"
+        "Performance" -> "🎪"
+        "Theory" -> "📐"
+        "Seasons" -> "🌸"
+        "Humility" -> "🙏"
+        "Silence" -> "🤫"
+        "Structure" -> "🏗️"
+        "Orchestration" -> "🎺"
+        "Audience" -> "👥"
+        "Form" -> "📋"
+        "Universal" -> "🌍"
+        "Expression" -> "💭"
+        "Balance" -> "⚖️"
+        "Teaching" -> "👨‍🏫"
+        "Spirituality" -> "🕊️"
+        "Metaphor" -> "🎭"
+        "Innovation" -> "🚀"
+        "Ensemble" -> "👥"
+        "Melody" -> "🎵"
+        "Instruments" -> "🎸"
+        "Technique" -> "🎯"
+        "Program Music" -> "📖"
+        "Style" -> "🎨"
+        "Harmony" -> "🎹"
+        "Voice" -> "🎤"
+        "Rhythm" -> "🥁"
+        "Dynamics" -> "📊"
+        "Ornamentation" -> "💎"
+        "Sacred and Secular" -> "⛪"
+        "Elements" -> "🧩"
+        "Forms" -> "📝"
+        "Thematic Development" -> "🌱"
+        "Counterpoint" -> "🎼"
+        "Tonality" -> "🎵"
+        "Wisdom" -> "🧠"
+        "Learning" -> "📚"
+        "Practicality" -> "🛠️"
+        "Conclusion" -> "🏁"
         else -> "✨"
     }
 }
 
 fun getCategoryGradient(category: String): List<Color> {
     return when (category) {
-        "Ren & Benevolence" -> listOf(PremiumColors.NeonPink, PremiumColors.PlasmaOrange)
-        "Li & Ritual Propriety" -> listOf(PremiumColors.ElectricPurple, PremiumColors.NebulaMagenta)
-        "Xiao & Family" -> listOf(PremiumColors.QuantumTeal, PremiumColors.CyberBlue)
-        "Junzi & Character" -> PremiumColors.GalaxyGradient
-        "Yi & Righteousness" -> listOf(PremiumColors.CosmicIndigo, PremiumColors.ElectricPurple)
-        "Zhi & Learning" -> PremiumColors.AuroraGradient
-        "Xin & Trust" -> listOf(PremiumColors.CyberBlue, PremiumColors.QuantumTeal)
-        "Self-Cultivation" -> PremiumColors.NorthernLights
-        "Social Harmony" -> PremiumColors.SunsetGradient
-        "Governance & Order" -> listOf(PremiumColors.QuantumGold, PremiumColors.PlasmaOrange)
+        "Music Philosophy" -> PremiumColors.GalaxyGradient
+        "Violin" -> listOf(PremiumColors.ElectricPurple, PremiumColors.NebulaMagenta)
+        "Nature" -> PremiumColors.SunsetGradient
+        "Artistry" -> PremiumColors.AuroraGradient
+        "Composition" -> listOf(PremiumColors.QuantumGold, PremiumColors.PlasmaOrange)
+        "Inspiration" -> PremiumColors.NorthernLights
+        "Emotion" -> listOf(PremiumColors.NeonPink, PremiumColors.PlasmaOrange)
+        "Purpose" -> listOf(PremiumColors.CosmicIndigo, PremiumColors.ElectricPurple)
+        "Venice" -> PremiumColors.TeaGradient
+        "Beauty" -> PremiumColors.SilkGradient
+        "Craft" -> listOf(PremiumColors.QuantumTeal, PremiumColors.CyberBlue)
+        "Baroque" -> PremiumColors.GalaxyGradient
+        "Listening" -> PremiumColors.SunsetGradient
+        "Performance" -> PremiumColors.AuroraGradient
+        "Theory" -> listOf(PremiumColors.ElectricPurple, PremiumColors.NebulaMagenta)
+        "Seasons" -> PremiumColors.SilkGradient
+        "Humility" -> PremiumColors.NorthernLights
+        "Silence" -> PremiumColors.TeaGradient
+        "Structure" -> listOf(PremiumColors.QuantumGold, PremiumColors.PlasmaOrange)
+        "Orchestration" -> listOf(PremiumColors.CyberBlue, PremiumColors.QuantumTeal)
+        "Audience" -> PremiumColors.GalaxyGradient
+        "Form" -> PremiumColors.SunsetGradient
+        "Universal" -> PremiumColors.AuroraGradient
+        "Expression" -> listOf(PremiumColors.NeonPink, PremiumColors.PlasmaOrange)
+        "Balance" -> listOf(PremiumColors.CosmicIndigo, PremiumColors.ElectricPurple)
+        "Teaching" -> PremiumColors.NorthernLights
+        "Spirituality" -> PremiumColors.SilkGradient
+        "Metaphor" -> PremiumColors.GalaxyGradient
+        "Innovation" -> listOf(PremiumColors.PlasmaOrange, PremiumColors.NeonPink)
+        "Ensemble" -> PremiumColors.TeaGradient
+        "Melody" -> PremiumColors.AuroraGradient
+        "Instruments" -> listOf(PremiumColors.QuantumGold, PremiumColors.QuantumTeal)
+        "Technique" -> listOf(PremiumColors.ElectricPurple, PremiumColors.CyberBlue)
+        "Program Music" -> PremiumColors.SunsetGradient
+        "Style" -> PremiumColors.NorthernLights
+        "Harmony" -> PremiumColors.SilkGradient
+        "Voice" -> listOf(PremiumColors.NeonPink, PremiumColors.ElectricPurple)
+        "Rhythm" -> listOf(PremiumColors.PlasmaOrange, PremiumColors.QuantumGold)
+        "Dynamics" -> PremiumColors.TeaGradient
+        "Ornamentation" -> PremiumColors.AuroraGradient
+        "Sacred and Secular" -> PremiumColors.GalaxyGradient
+        "Elements" -> PremiumColors.NorthernLights
+        "Forms" -> PremiumColors.SunsetGradient
+        "Thematic Development" -> PremiumColors.SilkGradient
+        "Counterpoint" -> listOf(PremiumColors.CyberBlue, PremiumColors.QuantumTeal)
+        "Tonality" -> PremiumColors.AuroraGradient
+        "Wisdom" -> listOf(PremiumColors.ElectricPurple, PremiumColors.NebulaMagenta)
+        "Learning" -> PremiumColors.TeaGradient
+        "Practicality" -> listOf(PremiumColors.QuantumGold, PremiumColors.PlasmaOrange)
+        "Conclusion" -> PremiumColors.GalaxyGradient
         else -> PremiumColors.GalaxyGradient
     }
 }
