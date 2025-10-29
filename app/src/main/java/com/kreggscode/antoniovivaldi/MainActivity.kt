@@ -39,7 +39,7 @@ import com.kreggscode.antoniovivaldi.ui.components.BottomNavItem
 import com.kreggscode.antoniovivaldi.ui.components.PremiumFloatingBottomBar
 import com.kreggscode.antoniovivaldi.ui.screens.AnimatedSplashScreen
 import com.kreggscode.antoniovivaldi.ui.theme.AnimatedGradientBackground
-import com.kreggscode.antoniovivaldi.ui.theme.Antonio VivaldiTheme
+import com.kreggscode.antoniovivaldi.ui.theme.AntonioVivaldiTheme
 import com.kreggscode.antoniovivaldi.ui.theme.PremiumColors
 import com.kreggscode.antoniovivaldi.viewmodel.ChatViewModel
 import com.kreggscode.antoniovivaldi.viewmodel.QuoteViewModel

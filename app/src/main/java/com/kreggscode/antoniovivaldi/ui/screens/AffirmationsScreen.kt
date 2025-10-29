@@ -723,7 +723,7 @@ fun getCategoryGradient(category: String): List<Color> {
     }
 }
 
-fun generateAntonio VivaldiAffirmations(): List<Affirmation> {
+fun generateAntonioVivaldiAffirmations(): List<Affirmation> {
     return listOf(
         Affirmation(
             1,

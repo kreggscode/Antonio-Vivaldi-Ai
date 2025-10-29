@@ -161,7 +161,7 @@ fun PremiumChatScreen(
                 // Loading indicator
                 if (isTyping) {
                     item {
-                        Antonio VivaldiThinkingIndicator()
+                        AntonioVivaldiThinkingIndicator()
                     }
                 }
             }
@@ -558,7 +558,7 @@ fun AnimatedChatBubble(
 }
 
 @Composable
-fun Antonio VivaldiThinkingIndicator() {
+fun AntonioVivaldiThinkingIndicator() {
     val infiniteTransition = rememberInfiniteTransition(label = "thinking")
     val rotation by infiniteTransition.animateFloat(
         initialValue = 0f,

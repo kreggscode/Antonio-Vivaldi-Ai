@@ -54,7 +54,7 @@ data class WorkItem(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Antonio VivaldiWorksScreen(
+fun AntonioVivaldiWorksScreen(
     onBackClick: () -> Unit,
     onWorkClick: (WorkItem) -> Unit,
     onChatClick: (String) -> Unit,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Theme for Android 15+ with proper edge-to-edge support -->
-    <style name="Theme.Confucius" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.AntonioVivaldi" parent="android:Theme.Material.NoActionBar">
         <!-- Edge-to-edge configuration for Android 15+ -->
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar">false</item>

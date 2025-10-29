@@ -25,7 +25,7 @@ import com.kreggscode.antoniovivaldi.ui.theme.*
 import com.kreggscode.antoniovivaldi.viewmodel.QuoteViewModel
 import kotlinx.coroutines.delay
 
-data class Antonio VivaldiWork(
+data class AntonioVivaldiWork(
     val title: String,
     val year: String,
     val description: String,
@@ -49,7 +49,7 @@ fun PremiumWorksScreen(
     val workGroups = remember(allQuotes) {
         allQuotes.groupBy { it.Work }
             .map { (work, quotes) ->
-                Antonio VivaldiWork(
+                AntonioVivaldiWork(
                     title = work,
                     year = quotes.firstOrNull()?.Year ?: "Unknown",
                     description = getWorkDescription(work),
@@ -219,7 +219,7 @@ fun PremiumWorksHeader(
 
 @Composable
 fun FeaturedWorkCard(
-    work: Antonio VivaldiWork,
+    work: AntonioVivaldiWork,
     onClick: () -> Unit
 ) {
     GlassmorphicCard(
@@ -340,7 +340,7 @@ fun FeaturedWorkCard(
 
 @Composable
 fun AnimatedWorkCard(
-    work: Antonio VivaldiWork,
+    work: AntonioVivaldiWork,
     index: Int,
     onClick: () -> Unit
 ) {
@@ -358,7 +358,7 @@ fun AnimatedWorkCard(
         GlassmorphicCard(
             modifier = Modifier.fillMaxWidth(),
             onClick = onClick,
-            glowColor = work.gradientColors.first()
+            glowColor = PremiumColors.CosmicIndigo
         ) {
             Row(
                 modifier = Modifier
@@ -373,7 +373,7 @@ fun AnimatedWorkCard(
                         .clip(RoundedCornerShape(16.dp))
                         .background(
                             brush = Brush.linearGradient(
-                                colors = work.gradientColors
+                                colors = listOf(PremiumColors.CosmicIndigo, PremiumColors.ElectricPurple)
                             )
                         ),
                     contentAlignment = Alignment.Center
@@ -412,7 +412,7 @@ fun AnimatedWorkCard(
                         Text(
                             work.year,
                             style = MaterialTheme.typography.labelSmall,
-                            color = work.gradientColors.first()
+                            color = PremiumColors.CosmicIndigo
                         )
                         
                         Spacer(modifier = Modifier.width(8.dp))

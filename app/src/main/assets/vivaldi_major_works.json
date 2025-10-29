@@ -114,5 +114,214 @@
       "These concertos were likely performed by Vivaldi himself at the Pietà",
       "The collection demonstrates Vivaldi's evolution as a composer between Op. 3 and Op. 8"
     ]
+  },
+  {
+    "id": "stabat_mater",
+    "title": "Stabat Mater",
+    "subtitle": "RV 621",
+    "year": "1712",
+    "type": "Sacred Vocal Work",
+    "icon": "🙏",
+    "summary": "The Stabat Mater is a deeply moving setting of the medieval hymn describing Mary's suffering at the crucifixion. Composed for alto voice and strings, this work showcases Vivaldi's ability to express profound emotion through music. The intimate scoring and expressive harmonies create a meditation on grief and devotion.",
+    "sections": [
+      {"title": "Emotional Depth", "content": "Unlike Vivaldi's more extroverted sacred works, the Stabat Mater is introspective and sorrowful. The alto voice weaves through string accompaniment, creating a dialogue between human suffering and divine mystery. Vivaldi employs chromaticism and dissonance to express pain and anguish."},
+      {"title": "Structural Unity", "content": "The work consists of nine movements that flow seamlessly, each exploring different aspects of the text. From the opening 'Stabat Mater dolorosa' to the closing 'Amen,' Vivaldi maintains emotional intensity while varying the musical textures and harmonies."}
+    ],
+    "funFacts": [
+      "Written for alto voice, unusual for Vivaldi's sacred music which often featured soprano",
+      "The work was commissioned for the Ospedale della Pietà",
+      "Pergolesi's later Stabat Mater became more famous, but Vivaldi's is equally moving",
+      "The intimate scoring allows for deeply personal expression"
+    ]
+  },
+  {
+    "id": "orlando_furioso",
+    "title": "Orlando furioso",
+    "subtitle": "RV 728",
+    "year": "1727",
+    "type": "Opera",
+    "icon": "🎭",
+    "summary": "Orlando furioso is one of Vivaldi's most successful operas, based on Ariosto's epic poem. The opera tells the story of the knight Orlando driven mad by unrequited love. Vivaldi's score features brilliant arias, dramatic recitatives, and innovative orchestration that brings the fantastic story to life.",
+    "sections": [
+      {"title": "Dramatic Innovation", "content": "The opera showcases Vivaldi's theatrical genius with arias that range from tender love songs to furious rage. The title role requires exceptional vocal and dramatic skills, with music depicting Orlando's descent into madness through increasingly agitated and chromatic passages."},
+      {"title": "Orchestral Color", "content": "Vivaldi employs the full orchestra to create vivid sound pictures - battle scenes, magical transformations, and pastoral interludes. The instrumental writing is as virtuosic as the vocal parts, with the orchestra serving as an active participant in the drama."}
+    ],
+    "funFacts": [
+      "Premiered at Teatro Sant'Angelo in Venice in 1727",
+      "The opera was revived multiple times during Vivaldi's lifetime",
+      "Based on Ludovico Ariosto's Renaissance epic poem",
+      "Features some of Vivaldi's most demanding vocal writing"
+    ]
+  },
+  {
+    "id": "il_cimento",
+    "title": "Il cimento dell'armonia e dell'inventione",
+    "subtitle": "The Contest Between Harmony and Invention, Op. 8",
+    "year": "1725",
+    "type": "Concerto Collection",
+    "icon": "🎼",
+    "summary": "Il cimento dell'armonia e dell'inventione is a collection of 12 violin concertos that includes The Four Seasons as its first four works. The title suggests a balance between traditional harmonic structure and inventive, programmatic content. The remaining eight concertos continue Vivaldi's exploration of descriptive music.",
+    "sections": [
+      {"title": "Beyond The Four Seasons", "content": "While The Four Seasons dominate this collection, the remaining eight concertos are equally masterful. Works like 'La tempesta di mare' (The Storm at Sea) and 'La caccia' (The Hunt) continue the programmatic approach with vivid musical depictions."},
+      {"title": "Technical Mastery", "content": "The collection demonstrates Vivaldi's complete command of the concerto form. Each work balances structural rigor with expressive freedom, showcasing both 'harmony' (traditional form) and 'invention' (creative content)."}
+    ],
+    "funFacts": [
+      "Published in Amsterdam by Michel-Charles Le Cène",
+      "Dedicated to Count Wenzel von Morzin",
+      "Concerto No. 5 'La tempesta di mare' depicts a sea storm",
+      "Concerto No. 10 'La caccia' features hunting horn effects"
+    ]
+  },
+  {
+    "id": "magnificat",
+    "title": "Magnificat",
+    "subtitle": "RV 610 and RV 611",
+    "year": "c. 1715-1720",
+    "type": "Sacred Choral Work",
+    "icon": "⛪",
+    "summary": "Vivaldi composed two settings of the Magnificat, Mary's song of praise from the Gospel of Luke. These works showcase his ability to set sacred texts with both grandeur and intimacy. The Magnificats feature brilliant choral writing, expressive solo movements, and masterful orchestration.",
+    "sections": [
+      {"title": "Two Versions", "content": "RV 610 is scored for two sopranos, alto, and strings, while RV 611 is a later, expanded version with additional instruments. Both settings demonstrate Vivaldi's gift for dramatic text setting and his understanding of choral sonorities."},
+      {"title": "Liturgical Splendor", "content": "The Magnificats were performed at Vespers services at the Pietà. Vivaldi creates music that is both liturgically appropriate and theatrically exciting, with movements ranging from intimate solos to grand choral declarations."}
+    ],
+    "funFacts": [
+      "The Magnificat is sung daily at Catholic Vespers services",
+      "RV 610 is the more frequently performed version today",
+      "The text comes from the Gospel of Luke, Chapter 1",
+      "Vivaldi's settings influenced later composers including Bach"
+    ]
+  },
+  {
+    "id": "griselda",
+    "title": "Griselda",
+    "subtitle": "RV 718",
+    "year": "1735",
+    "type": "Opera",
+    "icon": "🎭",
+    "summary": "Griselda is one of Vivaldi's late operas, telling the story of a peasant woman who becomes a queen and endures cruel tests of her virtue. The opera features some of Vivaldi's most mature and sophisticated vocal writing, with arias that explore complex emotional states.",
+    "sections": [
+      {"title": "Psychological Depth", "content": "Unlike earlier Baroque operas focused on external action, Griselda explores the inner emotional life of its characters. Vivaldi's music depicts Griselda's suffering, dignity, and ultimate triumph with remarkable psychological insight."},
+      {"title": "Late Style", "content": "Composed near the end of Vivaldi's career, Griselda shows his mature operatic style. The arias are more through-composed, with less reliance on da capo form. The orchestration is richer and more varied than in his earlier operas."}
+    ],
+    "funFacts": [
+      "Based on a story from Boccaccio's Decameron",
+      "Premiered at Teatro San Samuele in Venice",
+      "The opera was successful and received multiple performances",
+      "Features the famous aria 'Agitata da due venti'"
+    ]
+  },
+  {
+    "id": "la_cetra",
+    "title": "La cetra",
+    "subtitle": "The Lyre, Op. 9",
+    "year": "1727",
+    "type": "Violin Concertos",
+    "icon": "🎻",
+    "summary": "La cetra (The Lyre) is a collection of 12 violin concertos dedicated to Emperor Charles VI. The title refers to the ancient lyre, symbolizing the noble art of music. These concertos demonstrate Vivaldi's continued innovation in the concerto form, with elegant melodies and sophisticated structures.",
+    "sections": [
+      {"title": "Imperial Dedication", "content": "Vivaldi dedicated this collection to Emperor Charles VI after meeting him in Trieste in 1728. The emperor, himself a musician, greatly admired Vivaldi's work. The dedication brought Vivaldi prestige and recognition at the highest levels of European society."},
+      {"title": "Refined Elegance", "content": "The concertos in La cetra show a more refined and elegant style compared to the extravagance of La stravaganza. The melodies are graceful, the harmonies sophisticated, and the overall effect is one of classical poise and balance."}
+    ],
+    "funFacts": [
+      "Dedicated to Emperor Charles VI of Austria",
+      "The emperor reportedly gave Vivaldi a gold chain and medal",
+      "Concerto No. 9 in B-flat is particularly popular",
+      "The collection shows Vivaldi's mature concerto style"
+    ]
+  },
+  {
+    "id": "juditha_triumphans",
+    "title": "Juditha triumphans",
+    "subtitle": "RV 644",
+    "year": "1716",
+    "type": "Sacred Oratorio",
+    "icon": "⚔️",
+    "summary": "Juditha triumphans is Vivaldi's only surviving oratorio, a dramatic retelling of the biblical story of Judith and Holofernes. Composed for the Ospedale della Pietà, this work showcases Vivaldi's theatrical genius in a sacred context, with vivid characterization and dramatic orchestration.",
+    "sections": [
+      {"title": "Political Allegory", "content": "The oratorio was composed to celebrate Venice's victory over the Turks. Judith's triumph over Holofernes served as an allegory for Venice's military success. Vivaldi's music captures both the drama of battle and the spiritual significance of divine deliverance."},
+      {"title": "Orchestral Innovation", "content": "Juditha triumphans features one of Vivaldi's most elaborate orchestrations, including unusual instruments like the chalumeau (predecessor of the clarinet), viola d'amore, and theorbo. Each character is associated with specific instrumental colors, creating a rich sonic tapestry."}
+    ],
+    "funFacts": [
+      "Vivaldi's only surviving oratorio",
+      "Composed for all-female performers at the Pietà",
+      "Features five vocal soloists and elaborate orchestration",
+      "The work lasts approximately two hours in performance"
+    ]
+  },
+  {
+    "id": "bassoon_concertos",
+    "title": "Bassoon Concertos",
+    "subtitle": "39 Concertos for Bassoon and Strings",
+    "year": "Various (1720s-1730s)",
+    "type": "Concerto Collection",
+    "icon": "🎺",
+    "summary": "Vivaldi composed 39 concertos for bassoon, more than any other Baroque composer. These works transformed the bassoon from a continuo instrument into a virtuoso solo instrument. The concertos showcase the bassoon's lyrical and technical capabilities with inventive melodies and challenging passages.",
+    "sections": [
+      {"title": "Bassoon as Soloist", "content": "Before Vivaldi, the bassoon was rarely featured as a solo instrument. Vivaldi recognized its expressive potential and composed concertos that explore its full range - from lyrical melodies in the upper register to powerful bass lines. These works established the bassoon concerto as a legitimate genre."},
+      {"title": "Technical Innovation", "content": "The bassoon concertos feature rapid passages, wide leaps, and extended range that challenged contemporary players. Vivaldi wrote idiomatically for the instrument, understanding its technical possibilities and limitations. Many of these concertos remain in the standard bassoon repertoire today."}
+    ],
+    "funFacts": [
+      "Vivaldi composed more bassoon concertos than any other Baroque composer",
+      "The Concerto in E minor RV 484 is one of the most popular",
+      "Many were written for specific bassoonists at the Pietà",
+      "The concertos helped establish the bassoon as a solo instrument"
+    ]
+  },
+  {
+    "id": "flute_concertos",
+    "title": "Flute Concertos",
+    "subtitle": "Op. 10 and Others",
+    "year": "1728-1729",
+    "type": "Concerto Collection",
+    "icon": "🎵",
+    "summary": "Vivaldi's flute concertos, including the famous Op. 10 collection, showcase the instrument's lyrical and virtuosic capabilities. Works like 'La notte' (The Night) and 'Il gardellino' (The Goldfinch) demonstrate Vivaldi's gift for programmatic writing and his understanding of the flute's expressive potential.",
+    "sections": [
+      {"title": "Op. 10 Collection", "content": "The six concertos of Op. 10 include some of Vivaldi's most imaginative programmatic works. 'La notte' depicts night scenes with mysterious harmonies and dramatic contrasts. 'Il gardellino' imitates a goldfinch's song with brilliant flute passages. 'La tempesta di mare' portrays a storm at sea with turbulent string writing."},
+      {"title": "Flute Technique", "content": "Vivaldi's flute concertos exploit the instrument's ability to produce rapid articulations, smooth legato lines, and delicate ornaments. The slow movements feature some of Vivaldi's most beautiful melodies, while the fast movements showcase brilliant technical display."}
+    ],
+    "funFacts": [
+      "Op. 10 was published in Amsterdam around 1728",
+      "'Il gardellino' imitates a goldfinch's song",
+      "'La notte' includes sections titled 'Ghosts,' 'Sleep,' and 'Sorrows'",
+      "These concertos helped establish the flute as a solo instrument"
+    ]
+  },
+  {
+    "id": "mandolin_concertos",
+    "title": "Mandolin Concertos",
+    "subtitle": "RV 425 and RV 532",
+    "year": "c. 1725",
+    "type": "Concertos",
+    "icon": "🪕",
+    "summary": "Vivaldi's two mandolin concertos are among the earliest and finest works for the instrument. These charming concertos showcase the mandolin's bright, percussive sound and rapid tremolo technique. They demonstrate Vivaldi's ability to write idiomatically for any instrument.",
+    "sections": [
+      {"title": "Mandolin Virtuosity", "content": "The Concerto in C major (RV 425) is the more famous of the two, featuring brilliant passages that exploit the mandolin's rapid tremolo and clear articulation. The slow movement is particularly beautiful, with the mandolin singing a lyrical melody over gentle string accompaniment."},
+      {"title": "Venetian Charm", "content": "These concertos capture the spirit of Venetian music-making, where the mandolin was a popular instrument for serenades and informal concerts. Vivaldi's writing is both technically demanding and melodically appealing, making these works favorites among mandolin players."}
+    ],
+    "funFacts": [
+      "Among the earliest concertos written for mandolin",
+      "The Concerto in C major is one of the most performed mandolin works",
+      "Vivaldi also wrote a concerto for two mandolins (RV 532)",
+      "The mandolin was popular in Venice for serenades"
+    ]
+  },
+  {
+    "id": "concerti_per_molti_strumenti",
+    "title": "Concerti per molti strumenti",
+    "subtitle": "Concertos for Many Instruments",
+    "year": "Various",
+    "type": "Concerto Collection",
+    "icon": "🎺",
+    "summary": "Vivaldi composed numerous concertos for unusual combinations of instruments, demonstrating his orchestral imagination and willingness to experiment. These works feature instruments like oboe, recorder, viola d'amore, and various combinations, creating unique sonic colors and textures.",
+    "sections": [
+      {"title": "Orchestral Experimentation", "content": "These concertos showcase Vivaldi's fascination with instrumental color. He wrote for virtually every instrument available in his time, often combining them in unusual ways. Works like the Concerto for Multiple Instruments RV 558 feature up to 16 solo instruments, creating a kaleidoscope of sound."},
+      {"title": "Sonic Innovation", "content": "Vivaldi understood each instrument's unique character and wrote idiomatically for them. The viola d'amore concertos exploit that instrument's sympathetic strings, while the recorder concertos showcase its gentle, pastoral quality. These works expanded the possibilities of Baroque orchestration."}
+    ],
+    "funFacts": [
+      "Vivaldi wrote concertos for virtually every instrument of his time",
+      "Some concertos feature up to 16 different solo instruments",
+      "The Concerto for Viola d'amore in D minor (RV 393) is particularly beautiful",
+      "These works influenced later composers' approach to orchestration"
+    ]
   }
 ]

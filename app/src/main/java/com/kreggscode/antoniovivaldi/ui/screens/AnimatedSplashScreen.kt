@@ -133,9 +133,9 @@ fun AnimatedSplashScreen(
                     )
                 }
                 
-                // Chinese character for Wisdom (智)
+                // Violin symbol for Vivaldi
                 Text(
-                    text = "智",
+                    text = "🎻",
                     fontSize = 120.sp,
                     fontWeight = FontWeight.Black,
                     color = Color(0xFFD4AF37), // Ancient gold
@@ -182,7 +182,7 @@ fun AnimatedSplashScreen(
             
             // Tagline with gradient
             Text(
-                text = "Ancient Chinese Wisdom • Timeless Teachings",
+                text = "Il Prete Rosso • Master of the Baroque",
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Light,
                 modifier = Modifier
@@ -205,7 +205,7 @@ fun AnimatedSplashScreen(
         
         // Quote at bottom
         Text(
-            text = "\"It does not matter how slowly you go as long as you do not stop.\"",
+            text = "\"Music is the expression of harmony in sound; love is the expression of harmony in life.\"",
             style = MaterialTheme.typography.bodySmall,
             color = Color(0xFFD4AF37).copy(alpha = textAlpha * 0.6f),
             textAlign = TextAlign.Center,

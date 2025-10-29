@@ -132,7 +132,7 @@ fun PremiumHomeScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Text(
-                                text = "🏯",
+                                text = "🎻",
                                 fontSize = 24.sp,
                                 modifier = Modifier.padding(end = 8.dp)
                             )
@@ -275,7 +275,7 @@ fun PremiumHomeScreen(
         
         // Full-screen animation overlay
         if (showFullScreenAnimation) {
-            Antonio VivaldiFullScreenAnimation(
+            AntonioVivaldiFullScreenAnimation(
                 onAnimationEnd = { showFullScreenAnimation = false }
             )
         }
@@ -286,17 +286,17 @@ fun PremiumHomeScreen(
 fun GreetingHeader() {
     val currentHour = remember { LocalDateTime.now().hour }
     val greeting = when (currentHour) {
-        in 0..11 -> "早安" // Chinese: Good morning (Zǎo ān)
-        in 12..16 -> "午安" // Chinese: Good afternoon (Wǔ ān)
-        in 17..20 -> "晚安" // Chinese: Good evening (Wǎn ān)
-        else -> "夜安" // Chinese: Good night (Yè ān)
+        in 0..11 -> "Buongiorno" // Italian: Good morning
+        in 12..16 -> "Buon pomeriggio" // Italian: Good afternoon
+        in 17..20 -> "Buonasera" // Italian: Good evening
+        else -> "Buonanotte" // Italian: Good night
     }
     
     val subtitle = when (currentHour) {
-        in 0..11 -> "Begin your journey to virtue"
-        in 12..16 -> "Cultivate benevolence and wisdom"
-        in 17..20 -> "Reflect on the Way of the Sage"
-        else -> "Rest with a tranquil heart"
+        in 0..11 -> "Begin your journey to musical excellence"
+        in 12..16 -> "Explore the beauty of Baroque composition"
+        in 17..20 -> "Reflect on the harmony of the seasons"
+        else -> "Rest with melodies in your heart"
     }
     
     val icon = when (currentHour) {
@@ -464,7 +464,7 @@ fun AnimatedHeader(
                     )
                     
                     Text(
-                        text = "🏯",
+                        text = "🎻",
                         fontSize = 72.sp,
                         modifier = Modifier
                             .scale(scale)
@@ -521,9 +521,9 @@ fun AnimatedHeader(
                     
                     Spacer(modifier = Modifier.height(12.dp))
                     
-                    // Chinese text with golden shimmer
+                    // Italian text with golden shimmer
                     Text(
-                        text = "孔夫子",
+                        text = "Il Prete Rosso",
                         style = MaterialTheme.typography.titleLarge,
                         color = PremiumColors.ImperialYellow.copy(alpha = 0.9f),
                         fontWeight = FontWeight.Bold,
@@ -555,7 +555,7 @@ fun AnimatedHeader(
                 Spacer(modifier = Modifier.height(16.dp))
                 
                 Text(
-                    text = "The Way of the Superior Person",
+                    text = "Master of Baroque Composition",
                     style = MaterialTheme.typography.bodyLarge,
                     color = PremiumColors.LotusWhite.copy(alpha = 0.85f),
                     fontWeight = FontWeight.Medium,
@@ -565,9 +565,9 @@ fun AnimatedHeader(
                 
                 Spacer(modifier = Modifier.height(8.dp))
                 
-                // Chinese philosophical concepts
+                // Musical concepts
                 Text(
-                    text = "仁 • 禮 • 義 • 智 • 信",
+                    text = "♪ • ♫ • ♬ • ♭ • ♯",
                     style = MaterialTheme.typography.bodySmall,
                     color = PremiumColors.JadeGreen.copy(alpha = 0.7f),
                     fontWeight = FontWeight.Normal,
@@ -1120,7 +1120,7 @@ fun EmptyStateCard() {
 }
 
 @Composable
-fun Antonio VivaldiFullScreenAnimation(
+fun AntonioVivaldiFullScreenAnimation(
     onAnimationEnd: () -> Unit
 ) {
     var visible by remember { mutableStateOf(true) }
@@ -1155,7 +1155,7 @@ fun Antonio VivaldiFullScreenAnimation(
             AnimatedParticles()
             
             // Central Antonio Vivaldi animation
-            Antonio VivaldiCentralAnimation()
+            AntonioVivaldiCentralAnimation()
         }
     }
 }
@@ -1164,15 +1164,15 @@ fun Antonio VivaldiFullScreenAnimation(
 fun AnimatedParticles() {
     val infiniteTransition = rememberInfiniteTransition(label = "particles")
     
-    // Greek philosophical symbols and letters
-    val chineseSymbols = listOf(
-        "仁", "義", "禮", "智", "信", "孝", "忠", "和", 
-        "德", "道", "學", "思", "誠", "敬", "恕", "中",
-        "🏯", "📜", "☯️", "🎋"
+    // Musical symbols and notation for Vivaldi theme
+    val musicalSymbols = listOf(
+        "♪", "♫", "♬", "♭", "♮", "♯", "𝄞", "𝄢", 
+        "𝅘𝅥", "𝅘𝅥𝅮", "𝅘𝅥𝅯", "𝅘𝅥𝅰", "𝅘𝅥𝅱", "𝅘𝅥𝅲", "𝄐", "𝄑",
+        "🎻", "🎼", "🎵", "🎶"
     )
     
     // Pre-calculate all animation values
-    val rotationValues = chineseSymbols.indices.map { index ->
+    val rotationValues = musicalSymbols.indices.map { index ->
         infiniteTransition.animateFloat(
             initialValue = 0f,
             targetValue = 360f,
@@ -1185,7 +1185,7 @@ fun AnimatedParticles() {
     }
     
     Canvas(modifier = Modifier.fillMaxSize()) {
-        chineseSymbols.forEachIndexed { index, symbol ->
+        musicalSymbols.forEachIndexed { index, symbol ->
             val angle = (index * 18f) + rotationValues[index].value
             
             val radius = size.minDimension * 0.38f
@@ -1212,7 +1212,7 @@ fun AnimatedParticles() {
 }
 
 @Composable
-fun Antonio VivaldiCentralAnimation() {
+fun AntonioVivaldiCentralAnimation() {
     val infiniteTransition = rememberInfiniteTransition(label = "Antonio Vivaldi")
     
     val scale by infiniteTransition.animateFloat(
@@ -1303,9 +1303,9 @@ fun Antonio VivaldiCentralAnimation() {
                     )
             )
             
-            // Chinese pagoda icon
+            // Violin icon for Vivaldi
             Text(
-                text = "🏯",
+                text = "🎻",
                 fontSize = 130.sp,
                 modifier = Modifier
                     .scale(scale)

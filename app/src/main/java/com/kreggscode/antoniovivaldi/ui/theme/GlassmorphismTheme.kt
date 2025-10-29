@@ -39,35 +39,35 @@ object PremiumColors {
     val NebulaMagenta = Color(0xFFA855F7)
     val QuantumGold = Color(0xFFFBBF24)
     
-    // Traditional Chinese Gradient Combinations
+    // Baroque Purple & Gold Gradient Combinations
     val ImperialGradient = listOf(
-        Color(0xFFFFD700),  // Imperial gold
-        Color(0xFFE34234),  // Cinnabar red
-        Color(0xFFFFD700)   // Imperial gold
+        Color(0xFF6B46C1),  // Baroque purple
+        Color(0xFFD4AF37),  // Venetian gold
+        Color(0xFF7C3AED)   // Velvet purple
     )
     
     val JadeGradient = listOf(
-        Color(0xFF00A86B),  // Jade green
-        Color(0xFF6B8E23),  // Bamboo
-        Color(0xFF00A86B)   // Jade green
+        Color(0xFF8E4585),  // Plum velvet
+        Color(0xFF6B46C1),  // Baroque purple
+        Color(0xFF4B0082)   // Royal indigo
     )
     
     val SunriseGradient = listOf(
-        Color(0xFFFF6B6B),  // Dawn red
-        Color(0xFFFFD700),  // Golden sun
-        Color(0xFFFF6B6B)   // Dawn red
+        Color(0xFFFFD700),  // Gilded gold
+        Color(0xFFFFBF00),  // Amber glow
+        Color(0xFFD4AF37)   // Venetian gold
     )
     
     val TeaGradient = listOf(
-        Color(0xFF88B04B),  // Tea green
-        Color(0xFF6B8E23),  // Bamboo
-        Color(0xFF556B2F)   // Dark olive
+        Color(0xFF7C3AED),  // Velvet purple
+        Color(0xFF6B46C1),  // Baroque purple
+        Color(0xFF2E1A47)   // Midnight purple
     )
     
     val SilkGradient = listOf(
-        Color(0xFF9B59B6).copy(alpha = 0.3f),  // Silk purple
-        Color(0xFFFFD700).copy(alpha = 0.2f),  // Gold thread
-        Color(0xFF00A86B).copy(alpha = 0.1f)   // Jade accent
+        Color(0xFF7C3AED).copy(alpha = 0.3f),  // Velvet purple
+        Color(0xFFD4AF37).copy(alpha = 0.2f),  // Venetian gold
+        Color(0xFF6B46C1).copy(alpha = 0.1f)   // Baroque purple
     )
     
     // Legacy gradient names (for backward compatibility)
@@ -77,17 +77,29 @@ object PremiumColors {
     val NorthernLights = TeaGradient
     val CosmicDust = SilkGradient
     
-    // Antonio Vivaldi-inspired Chinese philosophical colors
-    val JadeGreen = Color(0xFF00A86B)        // Sacred jade
-    val ImperialYellow = Color(0xFFFFD700)   // Emperor's color
-    val CinnabarRed = Color(0xFFE34234)      // Traditional red
-    val IndigoBlue = Color(0xFF4B0082)       // Scholar's robe
-    val BambooGreen = Color(0xFF6B8E23)      // Bamboo wisdom
-    val LotusWhite = Color(0xFFF8F8FF)       // Purity & enlightenment
-    val DragonGold = Color(0xFFD4AF37)       // Imperial dragon
-    val TeaGreen = Color(0xFF88B04B)         // Tea ceremony
-    val SilkPurple = Color(0xFF9B59B6)       // Silk road
-    val ParchmentBeige = Color(0xFFF5DEB3)   // Ancient texts
+    // Antonio Vivaldi Baroque Colors - Purple & Gold Theme
+    val BaroquePurple = Color(0xFF6B46C1)    // Rich royal purple
+    val VenetianGold = Color(0xFFD4AF37)     // Venetian gold
+    val ViolinWood = Color(0xFF8B4513)       // Rich violin wood
+    val VelvetPurple = Color(0xFF7C3AED)     // Deep velvet purple
+    val GildedGold = Color(0xFFFFD700)       // Gilded ornament gold
+    val RoyalIndigo = Color(0xFF4B0082)      // Royal indigo
+    val AmberGlow = Color(0xFFFFBF00)        // Warm amber
+    val PlumVelvet = Color(0xFF8E4585)       // Plum velvet
+    val ChampagneGold = Color(0xFFF7E7CE)    // Champagne gold
+    val MidnightPurple = Color(0xFF2E1A47)   // Deep midnight purple
+    
+    // Legacy compatibility colors
+    val JadeGreen = BaroquePurple
+    val ImperialYellow = VenetianGold
+    val CinnabarRed = PlumVelvet
+    val IndigoBlue = RoyalIndigo
+    val BambooGreen = ViolinWood
+    val LotusWhite = ChampagneGold
+    val DragonGold = GildedGold
+    val TeaGreen = AmberGlow
+    val SilkPurple = VelvetPurple
+    val ParchmentBeige = ChampagneGold
     
     // Legacy Greek colors (kept for backward compatibility)
     val OliveGreen = Color(0xFF6B8E23)      // Ancient olive groves

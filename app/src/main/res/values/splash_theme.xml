@@ -2,9 +2,10 @@
 <resources>
     <!-- Splash Screen Theme for Antonio Vivaldi App - Instant transition -->
     <style name="Theme.AntonioVivaldi.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#0A0E27</item>
-        <!-- No icon, instant transition -->
-        <item name="windowSplashScreenAnimationDuration">1</item>
+        <item name="windowSplashScreenBackground">#4A148C</item>
+        <!-- Vivaldi-themed splash with musical icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_vivaldi</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
         <item name="android:windowSplashScreenBrandingImage">@null</item>
         <item name="postSplashScreenTheme">@style/Theme.AntonioVivaldi</item>
         <!-- Removed deprecated statusBarColor and navigationBarColor -->

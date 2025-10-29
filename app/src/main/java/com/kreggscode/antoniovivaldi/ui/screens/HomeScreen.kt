@@ -89,7 +89,7 @@ fun HomeScreen(
                 item(
                     span = { androidx.compose.foundation.lazy.grid.GridItemSpan(2) }
                 ) {
-                    val greeting = getAntonio VivaldiGreeting()
+                    val greeting = getAntonioVivaldiGreeting()
                     GlassmorphicHeader(
                         title = greeting,
                         subtitle = "TEACHINGS OF THE GREAT SAGE"
@@ -207,7 +207,7 @@ private fun EnhancedCategoryCard(
     category: Category,
     onClick: () -> Unit
 ) {
-    val gradientColors = getAntonio VivaldiCategoryGradient(category.name)
+    val gradientColors = getAntonioVivaldiCategoryGradient(category.name)
     
     Card(
         onClick = onClick,
@@ -269,7 +269,7 @@ private fun EnhancedCategoryCard(
 }
 
 @Composable
-private fun getAntonio VivaldiGreeting(): String {
+private fun getAntonioVivaldiGreeting(): String {
     val calendar = Calendar.getInstance()
     val hour = calendar.get(Calendar.HOUR_OF_DAY)
     
@@ -282,7 +282,7 @@ private fun getAntonio VivaldiGreeting(): String {
 }
 
 @Composable
-private fun getAntonio VivaldiCategoryGradient(categoryName: String): List<Color> {
+private fun getAntonioVivaldiCategoryGradient(categoryName: String): List<Color> {
     return when (categoryName.lowercase()) {
         // Antonio Vivaldi-themed Chinese color gradients
         "wisdom" -> listOf(Color(0xFFFFD700), Color(0xFFB8860B))  // Imperial gold

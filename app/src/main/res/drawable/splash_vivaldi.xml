@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient Background - Baroque Purple theme -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#4A148C"
+                android:centerColor="#6A1B9A"
+                android:endColor="#8E24AA"
+                android:type="linear"/>
+        </shape>
+    </item>
+    
+    <!-- Violin Icon (using launcher icon) -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+</layer-list>

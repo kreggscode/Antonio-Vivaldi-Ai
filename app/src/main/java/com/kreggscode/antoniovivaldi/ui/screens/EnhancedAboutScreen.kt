@@ -135,7 +135,7 @@ fun BiographyTab() {
                         .padding(24.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Text("🏯", fontSize = 64.sp)
+                    Text("🎻", fontSize = 64.sp)
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(
                         "Antonio Vivaldi",
@@ -144,7 +144,7 @@ fun BiographyTab() {
                         color = Color.White
                     )
                     Text(
-                        "551 BCE - 479 BCE",
+                        "1678 - 1741",
                         style = MaterialTheme.typography.titleMedium,
                         color = PremiumColors.ImperialYellow
                     )
@@ -162,39 +162,39 @@ fun BiographyTab() {
             InfoCard(
                 title = "Early Life",
                 icon = "👶",
-                content = "Born Antonio Lucio Vivaldi in 551 BCE in the State of Lu (modern-day Shandong Province, China) during the Spring and Autumn period. Father died when he was three years old. Raised in poverty by his mother, he worked various jobs while dedicating himself to learning ancient Chinese traditions and texts."
+                content = "Born Antonio Lucio Vivaldi on March 4, 1678, in Venice, Republic of Venice. Baptized immediately after birth due to poor health. His father, Giovanni Battista, was a professional violinist who taught young Antonio. Showed exceptional musical talent from early age, learning violin and composition."
             )
         }
         
         item {
             InfoCard(
-                title = "Teaching Career (521-479 BCE)",
-                icon = "🎓",
-                content = "Began teaching around age 30, accepting students from all social classes - a revolutionary approach. First teacher in Chinese history to democratize education, requiring only tuition regardless of birth. Taught over 3,000 students, with 72 becoming renowned scholars."
+                title = "Priesthood & The Pietà (1703-1740)",
+                icon = "⛪",
+                content = "Ordained as Catholic priest in 1703, earning nickname 'Il Prete Rosso' (The Red Priest) due to red hair. Appointed maestro di violino at Ospedale della Pietà orphanage. Composed hundreds of concertos and sacred works for the all-female ensemble, creating music tailored to showcase their talents."
             )
         }
         
         item {
             InfoCard(
-                title = "Government Service & Travels",
-                icon = "👑",
-                content = "Served briefly in government positions in the State of Lu. Spent 14 years traveling various Chinese states, seeking rulers who would implement his philosophy of moral governance. Promoted rule by moral example rather than force."
+                title = "Operatic Career & Travels",
+                icon = "🎭",
+                content = "Composed over 40 operas performed throughout Italy and Europe. Traveled extensively to Vienna, Prague, Rome, and Mantua presenting his works. Served as Maestro di Cappella in Mantua (1717-1720). His operas were celebrated for brilliant orchestration and dramatic power."
             )
         }
         
         item {
             InfoCard(
-                title = "Private School & Classical Editing",
-                icon = "🏯",
-                content = "Established the first private school in Chinese history around 521 BCE. In his later years, focused on teaching and editing classical Chinese texts including the Book of Poetry, Book of Documents, and Book of Rites, preserving ancient wisdom for future generations."
+                title = "The Four Seasons & Peak Fame",
+                icon = "🎻",
+                content = "Published Il cimento dell'armonia e dell'inventione (Op. 8) in 1725, containing The Four Seasons - his most famous work. These programmatic violin concertos depicted scenes from nature with unprecedented vividness. Became one of the most celebrated composers in Europe."
             )
         }
         
         item {
             InfoCard(
-                title = "Final Years",
-                icon = "📜",
-                content = "Returned to the State of Lu in his later years, dedicating himself to teaching and compiling classical texts. Died in 479 BCE at age 72, reportedly saddened by the state of society. His teachings, compiled in The Four Seasons by his disciples, became the foundation of East Asian civilization."
+                title = "Final Years & Legacy",
+                icon = "🌟",
+                content = "Faced declining popularity as Baroque style fell out of fashion. Traveled to Vienna in 1740 seeking employment but Emperor Charles VI died shortly after. Vivaldi died in poverty on July 28, 1741, buried in simple grave. His music was rediscovered in 20th century and is now celebrated worldwide."
             )
         }
     }
@@ -208,10 +208,10 @@ fun WorksTab(onWorkClick: ((String) -> Unit)? = null) {
     ) {
         item {
             HighlightCard(
-                title = "Ren (Benevolence)",
-                subtitle = "The Highest Virtue",
-                description = "Vivaldi's central concept of humaneness, compassion, and love for others. Ren encompasses all virtues and is the foundation of moral cultivation and harmonious relationships.",
-                gradient = listOf(PremiumColors.JadeGreen, PremiumColors.TeaGreen)
+                title = "The Four Seasons",
+                subtitle = "Le Quattro Stagioni",
+                description = "Vivaldi's most famous work - four violin concertos depicting Spring, Summer, Autumn, and Winter. Revolutionary programmatic music with sonnets describing each scene. Showcases Vivaldi's genius for musical storytelling.",
+                gradient = listOf(PremiumColors.ElectricPurple, PremiumColors.CosmicIndigo)
             )
         }
         
@@ -226,12 +226,12 @@ fun WorksTab(onWorkClick: ((String) -> Unit)? = null) {
         }
         
         val works = listOf(
-            Work("The Four Seasons (Lunyu)", "Compiled posthumously", "Collection of Vivaldi's sayings and conversations with disciples - the primary source of his teachings", "⭐", null),
-            Work("Book of Poetry (Shijing)", "Edited ~500 BCE", "Anthology of 305 Chinese poems and songs that Antonio Vivaldi edited and used for moral instruction", "📜", null),
-            Work("Book of Documents (Shujing)", "Edited ~500 BCE", "Collection of political speeches and documents from ancient Chinese rulers", "📚", null),
-            Work("Book of Rites (Liji)", "Edited ~500 BCE", "Manual of ritual and ceremonial practices for proper social conduct and harmony", "🎭", null),
-            Work("Book of Changes (I Ching)", "Commentary ~500 BCE", "Ancient divination text with Vivaldi's commentaries on change and transformation", "☯️", null),
-            Work("Spring and Autumn Annals", "Compiled ~500 BCE", "Chronicle of the State of Lu, traditionally attributed to Antonio Vivaldi", "📖", null)
+            Work("L'estro armonico (Op. 3)", "1711", "12 concertos for various instruments that established Vivaldi's international reputation. Influenced J.S. Bach who transcribed several", "🎼", null),
+            Work("La stravaganza (Op. 4)", "1714", "12 violin concertos showcasing virtuosic technique and expressive range", "🎻", null),
+            Work("Il cimento (Op. 8)", "1725", "12 concertos including The Four Seasons - programmatic masterpieces depicting nature", "🌸", null),
+            Work("Gloria in D (RV 589)", "~1715", "Sacred choral masterwork - one of Vivaldi's most performed sacred compositions", "⛪", null),
+            Work("Stabat Mater (RV 621)", "1712", "Deeply expressive sacred vocal work for alto and strings", "🙏", null),
+            Work("Orlando furioso (RV 728)", "1727", "Opera based on Ariosto's epic poem - showcases Vivaldi's dramatic genius", "🎭", null)
         )
         
         items(works) { work ->
@@ -250,41 +250,41 @@ fun LegacyTab() {
     ) {
         item {
             InfoCard(
-                title = "Philosophical Impact",
-                icon = "🧠",
-                content = "Baroque composition became China's official philosophy for over 2,000 years. Shaped governmental systems of China, Korea, Japan, and Vietnam. Created ethical frameworks for personal and social moral development still influential today."
+                title = "Musical Innovation",
+                icon = "🎼",
+                content = "Revolutionized the concerto form with the three-movement fast-slow-fast structure. Pioneered programmatic music with The Four Seasons. Composed over 500 concertos, establishing the solo concerto as a major genre. Influenced Bach, Handel, and countless composers."
             )
         }
         
         item {
             InfoCard(
-                title = "Educational Revolution",
-                icon = "🔬",
-                content = "First to establish private education accessible to all social classes in China. Democratized learning and created merit-based social mobility. Established the Chinese examination system that shaped bureaucracy for centuries."
+                title = "Violin Virtuosity",
+                icon = "🎻",
+                content = "Expanded violin technique with unprecedented demands for speed, range, and expression. His concertos pushed boundaries of what was considered playable. Established the violin as the premier solo instrument of the Baroque era."
             )
         }
         
         item {
             InfoCard(
-                title = "Cultural Preservation",
-                icon = "📚",
-                content = "Preserved and transmitted ancient Chinese classical literature. Edited the Five Classics that became foundation of Chinese education. His emphasis on learning and self-cultivation shaped East Asian educational values."
+                title = "Operatic Contributions",
+                icon = "🎭",
+                content = "Composed over 40 operas that were performed throughout Europe. Innovated in orchestration and dramatic expression. His operas featured brilliant arias and ensemble writing that influenced the development of opera seria."
             )
         }
         
         item {
             InfoCard(
-                title = "Social Harmony",
-                icon = "☯️",
-                content = "Emphasized filial piety as foundation of social order. Created framework of Five Relationships that structured East Asian society. Promoted harmony through proper conduct and moral example."
+                title = "Sacred Music Legacy",
+                icon = "⛪",
+                content = "Composed magnificent sacred works including Gloria, Magnificat, and Stabat Mater. His sacred music combined theatrical drama with spiritual depth. Works like Gloria RV 589 remain staples of choral repertoire worldwide."
             )
         }
         
         item {
             InfoCard(
-                title = "Modern Relevance",
-                icon = "💡",
-                content = "Confucian values continue to influence East Asian business practices and education. His birthday celebrated as Teachers' Day across Asia. UNESCO recognizes him as one of the ten greatest thinkers in human history."
+                title = "20th Century Rediscovery",
+                icon = "🌟",
+                content = "Music largely forgotten after death, rediscovered in early 1900s. The Four Seasons became one of the most recorded pieces in classical music. Today recognized as one of the greatest Baroque composers. His music performed and celebrated globally."
             )
         }
     }
@@ -297,16 +297,16 @@ fun TimelineTab() {
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         val timeline = listOf(
-            TimelineEvent("551 BCE", "Born in Zou, State of Lu, China", "👶"),
-            TimelineEvent("548 BCE", "Father dies; raised in poverty", "💔"),
-            TimelineEvent("532 BCE", "Marries at age 19", "💑"),
-            TimelineEvent("521 BCE", "Begins teaching; establishes private school", "🎓"),
-            TimelineEvent("501 BCE", "Appointed to government position in Lu", "👑"),
-            TimelineEvent("497 BCE", "Begins 14-year journey across Chinese states", "🚶"),
-            TimelineEvent("484 BCE", "Returns to Lu; focuses on teaching", "🏯"),
-            TimelineEvent("483 BCE", "Edits classical texts and compiles teachings", "📚"),
-            TimelineEvent("481 BCE", "Completes Spring and Autumn Annals", "📜"),
-            TimelineEvent("479 BCE", "Dies at age 72 in State of Lu", "⭐")
+            TimelineEvent("1678", "Born in Venice on March 4", "👶"),
+            TimelineEvent("1703", "Ordained as priest - 'Il Prete Rosso'", "⛪"),
+            TimelineEvent("1703", "Appointed maestro at Ospedale della Pietà", "🎻"),
+            TimelineEvent("1711", "Published L'estro armonico (Op. 3)", "🎼"),
+            TimelineEvent("1713", "First opera Ottone in villa premiered", "🎭"),
+            TimelineEvent("1717", "Moved to Mantua as Maestro di Cappella", "👑"),
+            TimelineEvent("1723", "Composed The Four Seasons", "🌸"),
+            TimelineEvent("1725", "Published Il cimento (Op. 8)", "📜"),
+            TimelineEvent("1740", "Left Venice for Vienna", "🚶"),
+            TimelineEvent("1741", "Died in Vienna on July 28", "🌟")
         )
         
         items(timeline) { event ->

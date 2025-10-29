@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Confucius" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.AntonioVivaldi" parent="android:Theme.Material.NoActionBar">
         <!-- Removed deprecated statusBarColor and navigationBarColor -->
         <!-- These are now handled by enableEdgeToEdge() in Activity -->
         <item name="android:windowLightStatusBar">false</item>

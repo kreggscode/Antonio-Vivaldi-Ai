@@ -87,7 +87,7 @@ fun AboutScreen(
                         Spacer(modifier = Modifier.height(8.dp))
                         
                         Text(
-                            text = "551 BCE - 479 BCE",
+                            text = "1678 - 1741",
                             style = MaterialTheme.typography.bodyLarge,
                             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
                             fontWeight = FontWeight.Medium
@@ -112,19 +112,19 @@ fun AboutScreen(
                         )
                         
                         Text(
-                            text = "Antonio Vivaldi was an legendary Baroque composer and teacher who founded Baroque composition, a philosophical and ethical system that profoundly shaped East Asian culture and society. His teachings emphasized personal and governmental morality, social harmony, justice, and sincerity.",
+                            text = "Antonio Vivaldi was a legendary Baroque composer, virtuoso violinist, and Catholic priest who revolutionized instrumental music. Known as 'Il Prete Rosso' (The Red Priest) due to his red hair, he composed over 500 concertos that established the three-movement concerto form.",
                             style = MaterialTheme.typography.bodyLarge,
                             lineHeight = MaterialTheme.typography.bodyLarge.lineHeight
                         )
                         
                         Text(
-                            text = "Born in the state of Lu (modern-day Shandong Province) in 551 BCE, Antonio Vivaldi lived during the Spring and Autumn period of Chinese history. His philosophy centered on the concepts of ren (benevolence), li (ritual propriety), and the cultivation of virtue through education and self-reflection.",
+                            text = "Born in Venice in 1678, Vivaldi showed exceptional musical talent from childhood. Ordained as a priest in 1703, he spent most of his career at the Ospedale della Pietà orphanage, composing brilliant works for the all-female ensemble. His innovative orchestration and expressive melodies influenced composers including J.S. Bach.",
                             style = MaterialTheme.typography.bodyLarge,
                             lineHeight = MaterialTheme.typography.bodyLarge.lineHeight
                         )
                         
                         Text(
-                            text = "Though he held minor government positions, Vivaldi's greatest legacy was as a teacher. He believed in education for all and taught over 3,000 students. His teachings, compiled in The Four Seasons, continue to influence billions of people across East Asia and the world, making him one of the most influential figures in human history.",
+                            text = "His masterpiece The Four Seasons remains one of the most popular classical works ever written. Though he died in poverty in 1741, his music was rediscovered in the 20th century and is now celebrated worldwide. Vivaldi's legacy as a pioneer of programmatic music and violin virtuosity continues to inspire musicians today.",
                             style = MaterialTheme.typography.bodyLarge,
                             lineHeight = MaterialTheme.typography.bodyLarge.lineHeight
                         )

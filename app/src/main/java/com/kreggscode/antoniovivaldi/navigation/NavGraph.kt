@@ -112,7 +112,7 @@ fun NavGraph(
         }
         
         composable(Screen.Works.route) {
-            Antonio VivaldiWorksScreen(
+            AntonioVivaldiWorksScreen(
                 onBackClick = {
                     navController.navigate(Screen.Home.route) {
                         popUpTo(navController.graph.startDestinationId) {
